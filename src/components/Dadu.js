@@ -22,7 +22,7 @@ function Dadu() {
       <p className="card-text">Jumlah Dadu:</p>
       <input type="number" value={diceNumber} onChange={handleDiceNumberChange}/><br/>
       <button className="btn btn-primary mt-2" onClick={handleRollDice}>Lemparkan Dadu</button>
-      <p>Result: {result}</p>
+      <p>Nombor Pilihan: {result}</p>
     </div>
   );
 }

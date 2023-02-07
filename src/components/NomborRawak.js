@@ -24,7 +24,7 @@ function NomborRawak() {
             <p className="card-text">Julat max:</p>
             <input type="number" id="maxNo" onChange={e => setMax(e.target.value)} value={max} placeholder="0"/><br/>
             <button onClick={handleGetRandomNumber} className="btn btn-primary mt-2">Dapatkan Nombor Rawak</button>
-            {showResult && <p className="txtResult">{result}</p>}
+            <p className="txtResult">No Pilihan: {result}</p>
         </div>
     )
 }

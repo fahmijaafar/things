@@ -18,9 +18,9 @@ function TextRawak() {
     <div className="card-body">
         <h5 className="card-title">Perkataan Rawak</h5>
         <p className="card-text">Letakkan beberapa perkataan dipisahkan dengan tanda koma:</p>
-        <input type="text" onChange={handleInput} placeholder="Ali, Ah Cheng, Amarjit" />
-        <p>{selectedString}</p>
-        <button className="btn btn-primary mt-2" onClick={handleClick}>Dapatkan Perkataan Rawak</button>
+        <input type="text" onChange={handleInput} placeholder="Ali, Ah Cheng, Amarjit" /><br/>
+        <button className="btn btn-primary mt-2" onClick={handleClick}>Dapatkan Perkataan Rawak</button><br/>
+        <p>Perkataan pilihan: {selectedString}</p>
     </div>
   );
 }

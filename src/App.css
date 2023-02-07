@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Abys;
+  src: url(./assets/Abys-Regular.otf);
+}
+
+.txtTitle {
+  font-family: Abys;
+  color: #2e2e48;
+}
 .App {
   text-align: center;
+  background-color: #f1f2f2;
 }
