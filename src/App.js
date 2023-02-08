@@ -11,7 +11,7 @@ function App() {
 
   return (
       <div className="container text-center">
-        <h1 className="txtTitle">Rawak.io</h1>
+        <h1 className="txtTitle">Rawak</h1>
         <div className="card text-center">
           <div className="card-header">
             <ul className="nav nav-tabs card-header-tabs">
