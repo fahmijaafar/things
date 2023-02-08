@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NomborRawak from './components/NomborRawak';
 import TextRawak from './components/TextRawak';
 import Dadu from './components/Dadu';
+import Meme from './components/Meme';
 
 function App() {
 
@@ -24,10 +25,13 @@ function App() {
                 <li className="nav-item">
                 <a className={`nav-link ${active === 'dadu' ? "active" : ""}`}  href="#" onClick={() => setActive('dadu')}>Dadu</a>
                 </li>
+                <li className="nav-item">
+                <a className={`nav-link ${active === 'meme' ? "active" : ""}`}  href="#" onClick={() => setActive('meme')}>Meme</a>
+                </li>
             </ul>
           </div>
         <div>
-        { active === 'nombor' ? <NomborRawak/> : active === 'perkataan' ? <TextRawak/> : <Dadu/> }
+        { active === 'nombor' ? <NomborRawak/> : active === 'perkataan' ? <TextRawak/> : active === 'dadu'? <Dadu/> : <Meme/> }
         </div>
         </div>
       </div>
